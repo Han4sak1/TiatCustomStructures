@@ -1,0 +1,21 @@
+Prefix: "&7[&a!&7]"
+debug: false
+
+#数据库
+database:
+    enable: false
+    host: localhost
+    port: 3306
+    user: root
+    password: root
+    database: test
+    table:
+
+# 全局建筑生成白名单
+GlobalWorldWhitelist: []
+# 全局建筑生成黑名单
+GlobalWorldBlacklist: []
+
+#需要生成的建筑列表
+Structures:
+    - demo

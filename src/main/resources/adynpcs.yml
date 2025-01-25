@@ -1,0 +1,20 @@
+# NPC牌子例子:
+# [adynpc]
+# Example
+Example:
+  # NPC名字
+  name: "例子"
+  # 类型
+  entityType: PLAYER
+  # 当entityType为PLAYER时，可以通过此项设置皮肤，填入正版ID
+  skin: ""
+  # 格式	说明
+  # say abc	以玩家权限执行命令
+  # op:say abc	以管理员权限执行命令
+  # server:say abc	以控制台视角执行命令
+  #同时可以使用 ~left 或 ~right 约束点击方式。
+  #格式	说明
+  # say abc~left	以玩家权限执行命令（仅限左键）
+  # say abc~right	以管理员权限执行命令（仅限右键）
+  commandsOnClick:
+    - ""

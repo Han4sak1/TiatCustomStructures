@@ -1,0 +1,10 @@
+# 指令组.
+# <X>, <Y> and <Z> - 牌子坐标
+# <minX>,<minY>,<minZ> - 建筑最低点
+# <maxX>,<maxY>,<maxZ> - 建筑最高点
+# [command]
+# SaySomething
+SaySomething:
+  - "say Sign coordinate: <x>,<y>,<z>"
+  - "say Structure coordinate one: <minX>,<minY>,<minZ>"
+  - "say Structure coordinate two: <maxX>,<maxY>,<maxZ>"

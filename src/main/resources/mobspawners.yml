@@ -1,0 +1,15 @@
+# NPC牌子例子:
+# [mmspawner]
+# Example
+Example:
+  # 怪物类型
+  type: "例子"
+  # 半径
+  radius: 5
+  # 最多刷怪数，支持PAPI
+  maxmobs: "5"
+  # 冷却（秒）
+  cooldown: 5
+  # 条件
+  # 条件书写格式
+  conditions: []
